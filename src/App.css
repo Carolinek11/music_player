@@ -1,0 +1,48 @@
+.playListContainer {
+  margin-bottom: 20px;
+}
+
+.TrackItem {
+  color: #ffc107;
+  font-size: 20px;
+  border-bottom: 1px solid #6c757d;
+  padding: 10px 0;
+  width: 400px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.audioTime {
+  color: #ffc107;
+  margin-top: 50px;
+}
+
+.progressBar {
+  width: 400px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #ffc107;
+  margin: 5px 0 20px 0;
+}
+
+.currentProgress {
+  /* width: 0px; */
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ff5e07;
+}
+
+.icons {
+  display: flex;
+  gap: 100px;
+}
+
+.icon {
+  color: #ffc107;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.clickIcon {
+  width: 30px;
+}
